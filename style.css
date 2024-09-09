@@ -1,0 +1,143 @@
+:root {
+    --heading-font: "Barlow Condensed",
+        sans-serif;
+    --body-font: "Nunito Sans",
+        sans-serif;
+    --primary-color: rgb(226, 28, 35);
+    --secondary-color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 6.5rem 9em;
+    background-image: url(https://generalassemb.ly/wp-content/uploads/2024/05/SSP_886-BW.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*-------Header-------*/
+
+header {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    padding: 1rem 0 1rem 1.3rem;
+}
+
+img {
+    display: inline-block;
+    height: 11rem;
+    max-width: 11rem;
+    vertical-align: bottom;
+    padding: 0;
+
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 1.2rem;
+    color: var(--secondary-color);
+    margin: 0;
+    margin-left: 3.6rem;
+}
+
+.spacer {
+    height: 2rem;
+}
+
+/*-------Main-------*/
+
+main {
+    background-color: var(--secondary-color);
+    padding: 2.6rem;
+}
+
+h2,
+h3 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.6rem;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+p {
+    font-family: var(--body-font);
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+#cities {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: var(--body-font);
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+/*-------Footer-------*/
+
+footer {
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 1.6rem 0;
+}
+
+#info {
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+#button {
+    margin: 0 auto;
+    display: block;
+    padding: 1rem 0.7rem;
+    margin-top: 0.8rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 8rem;
+}
+
+#button:hover {
+    opacity: 50%;
+}
