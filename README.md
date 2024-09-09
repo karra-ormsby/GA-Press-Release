@@ -18,7 +18,7 @@ No installation needed. The application can be found at
 
 ## Installation
 
-No installation needed. The application can be found at 
+No installation needed. The application can be found at https://karra-ormsby.github.io/GA-Press-Release/.
 
 ## Credits
 
